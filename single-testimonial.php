@@ -7,13 +7,16 @@
 ---------------------------------------------------------------*/
 
 // ---------------------------------------------------------------
-// INDEX (default blog layout)
+// SINGLE POST (type testimonial)
 // ---------------------------------------------------------------
 
 get_header();
 
+$testimonial_occupation = get_post_meta( $post->ID, 'testimonial_occupation', true );
+
 $highContrast = PEsettings::get( 'highContrast' );
 $main_width   = ( PEsettings::get( 'full-screen,main' ) == 1 ) ? 'full' : '';
+$post_page_heading = PEsettings::get( 'post-page-heading' );
 
 // hidden class
 $main_hide_mobile = ( PEsettings::get( 'main-hide,mobile' ) == 1 ) ? ' hidden-xs' :'';
@@ -37,16 +40,60 @@ $main_hide = $main_hide_mobile . $main_hide_tablet . $main_hide_desktop . $main_
 					echo 'role="main" tabindex="-1"';
 				} ?>>
 
-					<?php
-					if ( have_posts() ) :
+					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-						get_template_part( 'tpl/blog' );
+						<article <?php post_class(); ?>>
 
-					else : ?>
+							<header class="page-header">
 
-						<?php get_template_part( 'tpl/content', 'none' ); ?>
+								<?php if($post_page_heading == 7){ ?>
+									<p class="page-header-main-title"><?php the_title(); ?></p>
+								<?php } else { ?>
+									<h<?php echo $post_page_heading; ?> class="page-header-main-title"><?php the_title(); ?></h<?php echo $post_page_heading; ?>>
+								<?php } ?>
 
-					<?php endif; ?>
+								<?php if ( ! empty( $testimonial_occupation ) ) : ?>
+
+									<div class="post-meta standard-meta">
+
+										<span><?php echo sanitize_text_field( $testimonial_occupation ); ?></span>
+
+									</div>
+
+								<?php endif; ?>
+
+							</header>
+
+							<?php
+							if ( has_post_thumbnail() ) :
+								?>
+
+								<figure>
+
+									<div class="pull-left pe-item-image">
+
+										<?php
+										the_post_thumbnail( 'medium' );
+										?>
+
+									</div>
+
+								</figure>
+
+							<?php endif; ?>
+
+							<div class="pe-article-content">
+
+								<?php the_content(); ?>
+
+							</div>
+
+						</article>
+
+						<?php
+					endwhile;
+					endif;
+					?>
 
 				</main>
 				<!-- End of main content area -->

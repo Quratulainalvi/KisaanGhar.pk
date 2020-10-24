@@ -1,0 +1,94 @@
+/*
+Theme Name: KisaanGhar
+Theme URI: https://www.pixelemu.com/wordpress-themes/i/244-terraclassic
+Author: PixelEmu
+Author URI: https://pixelemu.com
+Description: Classified ads theme for WordPress created with TerraClassifieds plugin
+Version: 1.07
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, microformats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, accessibility-ready
+Text Domain: pe-terraclassic
+*/
+
+/* All theme styles you will find in LESS files. Please check 'less' directory. */
+
+/* Below classes are provided for Theme Check plugin purpose only, you can find proper styles in '*.less' files */
+.bypostauthor {
+}
+
+.wp-caption {
+}
+
+.wp-caption-text {
+}
+
+.gallery-caption {
+}
+
+.sticky {
+}
+
+.alignright {
+}
+
+.alignleft {
+}
+
+.aligncenter {
+}
+
+.screen-reader-text {
+}
+
+/* You can add here your custom styles */
+.gdpr.gdpr-privacy-bar, .gdpr.gdpr-reconsent-bar{
+	display:none!important;
+}
+.terraclassifieds-archive .terraclassifieds-title a {
+    color: #167501!important;
+    
+}
+.terraclassifieds-archive .terraclassifieds-title {
+    font-size: 27px!important;
+    font-weight: 400;
+    margin: 0 0 5px!important;
+    vertical-align: middle;
+    display: inline-block;
+}
+.custom-cats ul li a {
+    display: inline-block;
+    background: #94b84a;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#pe-copyrights {
+    padding: 30px 15px;
+    color: #fff!important;
+    background: #4b8035!important;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+#pe-footer h3.pe-title span{
+	font-size:18px!important;
+	line-height:30px;
+}
+
+.page-header{
+	display:none;
+}
+#pe_best_features-49{
+	display:none;
+}
+
+ul.cmb2-indented-hierarchy {
+    height: 150px!important;
+    overflow: auto!important;
+    margin: 0 0 10px!important;
+}
+.terraclassifieds-search-filter-selling-type {
+    display: none!important;
+}

@@ -1,19 +1,20 @@
 <?php
 /*--------------------------------------------------------------
- Copyright (C) pixelemu.com
- License: http://www.pixelemu.com/license.html PixelEmu Proprietary Use License
- Website: http://www.pixelemu.com
- Support: info@pixelemu.com
+Copyright (C) pixelemu.com
+License: http://www.pixelemu.com/license.html PixelEmu Proprietary Use License
+Website: http://www.pixelemu.com
+Support: info@pixelemu.com
 ---------------------------------------------------------------*/
 
 // ---------------------------------------------------------------
-// INDEX (default blog layout)
+// ARCHIVE
 // ---------------------------------------------------------------
 
 get_header();
 
 $highContrast = PEsettings::get( 'highContrast' );
 $main_width   = ( PEsettings::get( 'full-screen,main' ) == 1 ) ? 'full' : '';
+$post_page_heading = PEsettings::get( 'archive-blog-heading' );
 
 // hidden class
 $main_hide_mobile = ( PEsettings::get( 'main-hide,mobile' ) == 1 ) ? ' hidden-xs' :'';
@@ -37,14 +38,28 @@ $main_hide = $main_hide_mobile . $main_hide_tablet . $main_hide_desktop . $main_
 					echo 'role="main" tabindex="-1"';
 				} ?>>
 
+					<?php if ( PEsettings::get( 'archive-header' ) ) : ?>
+						<header class="page-header">
+							<?php
+							if($post_page_heading == 7){
+								the_archive_title( '<p class="page-header-main-title">', '</p>' );
+							} else {
+								the_archive_title( '<h'.$post_page_heading.' class="page-header-main-title">', '</h'.$post_page_heading.'>' );
+							}
+							the_archive_description( '<div class="taxonomy-description">', '</div>' );
+							?>
+						</header>
+					<?php endif; ?>
+
 					<?php
+
 					if ( have_posts() ) :
 
 						get_template_part( 'tpl/blog' );
 
 					else : ?>
 
-						<?php get_template_part( 'tpl/content', 'none' ); ?>
+						<p class="nothing-found"><?php esc_html_e( 'No Posts Found!', 'pe-terraclassic' ); ?></p>
 
 					<?php endif; ?>
 

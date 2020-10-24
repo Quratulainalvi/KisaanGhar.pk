@@ -7,7 +7,7 @@
 ---------------------------------------------------------------*/
 
 // ---------------------------------------------------------------
-// INDEX (default blog layout)
+// PAGE (single page layout)
 // ---------------------------------------------------------------
 
 get_header();
@@ -37,16 +37,14 @@ $main_hide = $main_hide_mobile . $main_hide_tablet . $main_hide_desktop . $main_
 					echo 'role="main" tabindex="-1"';
 				} ?>>
 
-					<?php
-					if ( have_posts() ) :
+					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-						get_template_part( 'tpl/blog' );
+						<?php get_template_part( 'tpl/content', 'page' ); ?>
 
-					else : ?>
-
-						<?php get_template_part( 'tpl/content', 'none' ); ?>
-
-					<?php endif; ?>
+						<?php
+					endwhile;
+					endif;
+					?>
 
 				</main>
 				<!-- End of main content area -->

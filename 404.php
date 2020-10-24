@@ -7,10 +7,16 @@
 ---------------------------------------------------------------*/
 
 // ---------------------------------------------------------------
-// INDEX (default blog layout)
+// ERROR 404 (with search form and sidebars)
 // ---------------------------------------------------------------
 
 get_header();
+
+$allowed_html_array = array(
+	'i'      => array(),
+	'br'     => array(),
+	'strong' => array(),
+);
 
 $highContrast = PEsettings::get( 'highContrast' );
 $main_width   = ( PEsettings::get( 'full-screen,main' ) == 1 ) ? 'full' : '';
@@ -37,16 +43,18 @@ $main_hide = $main_hide_mobile . $main_hide_tablet . $main_hide_desktop . $main_
 					echo 'role="main" tabindex="-1"';
 				} ?>>
 
-					<?php
-					if ( have_posts() ) :
-
-						get_template_part( 'tpl/blog' );
-
-					else : ?>
-
-						<?php get_template_part( 'tpl/content', 'none' ); ?>
-
-					<?php endif; ?>
+					<div class="pe-error-page">
+						<h1><?php esc_html_e( 'OOPS! Error 404', 'pe-terraclassic' ); ?></h1>
+						<h2><?php esc_html_e( 'Page Not found!', 'pe-terraclassic' ); ?></h2>
+						<p><?php echo wp_kses( __( '"Sorry, it appears the page you were looking for doesnt exist anymore or might have been moved. <br /> Please try your luck again."', 'pe-terraclassic' ), $allowed_html_array ); ?></p>
+						<div class="search">
+							<form role="search" method="get" action="<?php echo home_url( '/' ); ?>">
+								<input type="search" id="pe-search-searchword" maxlength="200" size="40" placeholder="<?php esc_html_e( 'Search ...', 'pe-terraclassic' ); ?>" value="<?php echo get_search_query(); ?>" name="s" title="<?php esc_html_e( 'Search for:', 'pe-terraclassic' ); ?>"/>
+								<input type="submit" class="button" value="<?php esc_html_e( 'Search', 'pe-terraclassic' ); ?>"/>
+							</form>
+						</div>
+						<a class="button" href="<?php echo get_site_url(); ?>"><?php esc_html_e( 'Go back home', 'pe-terraclassic' ); ?></a>
+					</div>
 
 				</main>
 				<!-- End of main content area -->
