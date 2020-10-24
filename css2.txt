@@ -1,0 +1,238 @@
+/* Ad */
+
+position: relative;
+width: 336px;
+height: 1275px;
+overflow-y: scroll;
+
+background: #FFFFFF;
+
+
+/* logo 1 */
+
+position: absolute;
+width: 153px;
+height: 99px;
+left: 63px;
+top: 0px;
+
+background: url(logo.jpg);
+
+
+/* myaccount 1 */
+
+position: absolute;
+width: 126px;
+height: 28px;
+left: 0px;
+top: 124px;
+
+background: url(myaccount.png);
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 119px;
+height: 28px;
+left: 180px;
+top: 127px;
+
+background: #F17707;
+border-radius: 10px;
+
+
+/* Post an Ad */
+
+position: absolute;
+width: 66px;
+height: 17px;
+left: 207px;
+top: 135px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 54px;
+height: 0px;
+left: 292px;
+top: 180px;
+
+border: 2px solid #000000;
+
+
+/* Line 3 */
+
+position: absolute;
+width: 54px;
+height: 0px;
+left: 292px;
+top: 207px;
+
+border: 2px solid #000000;
+
+
+/* Line 2 */
+
+position: absolute;
+width: 54px;
+height: 0px;
+left: 292px;
+top: 194px;
+
+border: 2px solid #000000;
+
+
+/* Rectangle 6 */
+
+position: absolute;
+visibility: hidden;
+width: 76px;
+height: 23px;
+left: 37px;
+top: 1521px;
+
+background: #35AFAF;
+
+
+/* کبوممغلہمد۔حک میی دبلہٹو دھوھدسھرب */
+
+position: absolute;
+width: 261px;
+height: 21px;
+left: 17px;
+top: 1642px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* img 1 */
+
+position: absolute;
+width: 312px;
+height: 26px;
+left: -13px;
+top: 232px;
+
+background: url(img.png);
+
+
+/* zdenek-machacek-imXaftIwlc-unsplash-450x300 2 */
+
+position: absolute;
+width: 319px;
+height: 230px;
+left: 13px;
+top: 258px;
+
+background: url(zdenek-machacek-imXaftIwlc-unsplash-450x300.jpg);
+
+
+/* Bull For Sale */
+
+position: absolute;
+width: 102px;
+height: 21px;
+left: 29px;
+top: 504px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #0C582A;
+
+
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 57px;
+height: 24px;
+left: 164px;
+top: 504px;
+
+background: #3CC2C2;
+
+
+/* New */
+
+position: absolute;
+width: 28px;
+height: 16px;
+left: 173px;
+top: 507px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+color: #FFFFFF;
+
+
+
+/* 3 1 */
+
+position: absolute;
+width: 288px;
+height: 75px;
+left: 11px;
+top: 552px;
+
+background: url(3.png);
+
+
+/* 4 1 */
+
+position: absolute;
+width: 276px;
+height: 320px;
+left: 11px;
+top: 627px;
+
+background: url(4.png);
+
+
+/* 6 1 */
+
+position: absolute;
+width: 268px;
+height: 212px;
+left: 21px;
+top: 947px;
+
+background: url(6.png);
+
+
+/* 2 1 */
+
+position: absolute;
+width: 336px;
+height: 66px;
+left: 0px;
+top: 1218px;
+
+background: url(2.png);

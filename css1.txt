@@ -1,0 +1,702 @@
+/* Home Page */
+
+position: relative;
+width: 359px;
+height: 1681px;
+overflow-y: scroll;
+
+background: #FFFFFF;
+
+
+/* logo 1 */
+
+position: absolute;
+width: 153px;
+height: 99px;
+left: 63px;
+top: 0px;
+
+background: url(logo.jpg);
+
+
+/* myaccount 1 */
+
+position: absolute;
+width: 126px;
+height: 28px;
+left: 0px;
+top: 124px;
+
+background: url(myaccount.png);
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 119px;
+height: 28px;
+left: 180px;
+top: 127px;
+
+background: #F17707;
+border-radius: 10px;
+
+
+/* Post an Ad */
+
+position: absolute;
+width: 66px;
+height: 17px;
+left: 207px;
+top: 135px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 54px;
+height: 0px;
+left: 292px;
+top: 180px;
+
+border: 2px solid #000000;
+
+
+/* Line 3 */
+
+position: absolute;
+width: 54px;
+height: 0px;
+left: 292px;
+top: 207px;
+
+border: 2px solid #000000;
+
+
+/* Line 2 */
+
+position: absolute;
+width: 54px;
+height: 0px;
+left: 292px;
+top: 194px;
+
+border: 2px solid #000000;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 320px;
+height: 135px;
+left: 17px;
+top: 222px;
+
+background: #159D4B;
+border-radius: 10px;
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 300px;
+height: 29px;
+left: 27px;
+top: 291px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+
+/* Enter Location */
+
+position: absolute;
+width: 205px;
+height: 20px;
+left: 37px;
+top: 297px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+color: rgba(0, 0, 0, 0.8);
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 300px;
+height: 29px;
+left: 27.5px;
+top: 239px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+
+/* Search products... */
+
+position: absolute;
+width: 205px;
+height: 20px;
+left: 35px;
+top: 243px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+color: rgba(0, 0, 0, 0.8);
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* clearr 1 */
+
+position: absolute;
+width: 69px;
+height: 31px;
+left: 147px;
+top: 375px;
+
+background: url(clearr.png);
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 114px;
+height: 39px;
+left: 235px;
+top: 378px;
+
+background: #159D4B;
+border-radius: 10px;
+
+
+/* Search */
+
+position: absolute;
+width: 71px;
+height: 16px;
+left: 256px;
+top: 383px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFAFA;
+
+
+
+/* Line 4 */
+
+position: absolute;
+width: 334px;
+height: 0px;
+left: 12px;
+top: 429px;
+
+border: 0.8px solid rgba(0, 0, 0, 0.2);
+transform: rotate(-0.18deg);
+
+
+/* Webp 1 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 5px;
+top: 444px;
+
+background: url(Webp.png);
+
+
+/* Agri Specialist */
+
+position: absolute;
+width: 92px;
+height: 16px;
+left: 82px;
+top: 468px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Webp 2 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 7px;
+top: 515px;
+
+background: url(Webp.png);
+
+
+/* Frame 1 */
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 29px;
+top: 155px;
+
+
+
+/* Webp 3 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 9px;
+top: 580px;
+
+background: url(Webp.png);
+
+
+/* Crops */
+
+position: absolute;
+width: 38px;
+height: 16px;
+left: 82px;
+top: 598px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Webp 4 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 9px;
+top: 647px;
+
+background: url(Webp.png);
+
+
+/* Fertilizers */
+
+position: absolute;
+width: 64px;
+height: 16px;
+left: 76px;
+top: 670px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Webp 5 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 12px;
+top: 716px;
+
+background: url(Webp.png);
+
+
+/* Labour */
+
+position: absolute;
+width: 44px;
+height: 18px;
+left: 76px;
+top: 737px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Webp 6 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 12px;
+top: 781px;
+
+background: url(Webp.png);
+
+
+/* Land */
+
+position: absolute;
+width: 31px;
+height: 16px;
+left: 79px;
+top: 806px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Webp 7 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 12px;
+top: 850px;
+
+background: url(Webp.png);
+
+
+/* Machinery */
+
+position: absolute;
+width: 67px;
+height: 16px;
+left: 79px;
+top: 873px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Webp 8 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 12px;
+top: 915px;
+
+background: url(Webp.png);
+
+
+/* Others */
+
+position: absolute;
+width: 43px;
+height: 16px;
+left: 77px;
+top: 941px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Webp 9 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 16px;
+top: 986px;
+
+background: url(Webp.png);
+
+
+/* Seeds */
+
+position: absolute;
+width: 39px;
+height: 16px;
+left: 79px;
+top: 1016px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Webp 10 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 17px;
+top: 1053px;
+
+background: url(Webp.png);
+
+
+/* Sheds */
+
+position: absolute;
+width: 40px;
+height: 16px;
+left: 82px;
+top: 1080px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Webp 11 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 22px;
+top: 1125px;
+
+background: url(Webp.png);
+
+
+/* Vets */
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 84px;
+top: 1143px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Webp 12 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 22px;
+top: 1194px;
+
+background: url(Webp.png);
+
+
+/* WareHouse */
+
+position: absolute;
+width: 73px;
+height: 16px;
+left: 84px;
+top: 1219px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Kisaanghar Latest Ads */
+
+position: absolute;
+width: 183px;
+height: 21px;
+left: 34px;
+top: 1285px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #0C582A;
+
+
+
+/* zdenek-machacek-imXaftIwlc-unsplash-450x300 1 */
+
+position: absolute;
+width: 251px;
+height: 160px;
+left: 22px;
+top: 1314px;
+
+background: url(zdenek-machacek-imXaftIwlc-unsplash-450x300.jpg);
+
+
+/* Bull For Sale */
+
+position: absolute;
+width: 80px;
+height: 16px;
+left: 37px;
+top: 1503px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+color: #0C582A;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+visibility: hidden;
+width: 76px;
+height: 23px;
+left: 37px;
+top: 1521px;
+
+background: #35AFAF;
+
+
+/* کبوممغلہمد۔حک میی دبلہٹو دھوھدسھرب */
+
+position: absolute;
+width: 261px;
+height: 21px;
+left: 17px;
+top: 1642px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* 2 1 */
+
+position: absolute;
+width: 359px;
+height: 77px;
+left: 0px;
+top: 1604px;
+
+background: url(2.png);
+
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 57px;
+height: 24px;
+left: 40px;
+top: 1524px;
+
+background: #3CC2C2;
+
+
+/* New */
+
+position: absolute;
+width: 28px;
+height: 16px;
+left: 49px;
+top: 1527px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+color: #FFFFFF;
+
+
+
+/* Animals */
+
+position: absolute;
+width: 52px;
+height: 16px;
+left: 82px;
+top: 540px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
